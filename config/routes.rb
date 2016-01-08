@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :measure_units
+
   resources :measure_names
 
   devise_for :admin_users, ActiveAdmin::Devise.config
