@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'activities/index'
+
   resources :click_frequencies
 
   resources :measurements
