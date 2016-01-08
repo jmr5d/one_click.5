@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :click_frequencies
+
   resources :measurements
 
   resources :measure_units
