@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Altitude:</strong>
+  <%= @measurement.altitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @measurement.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @measurement.longitude %>
+</p>
+
+<p>
+  <strong>Happened at:</strong>
+  <%= @measurement.happened_at %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @measurement.user %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @measurement.position %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @measurement.value %>
+</p>
+
+<%= link_to 'Edit', edit_measurement_path(@measurement) %> |
+<%= link_to 'Back', measurements_path %>
